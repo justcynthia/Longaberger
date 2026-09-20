@@ -82,6 +82,15 @@ dialog::backdrop{background:rgba(20,26,21,.55)}
 .ref summary{cursor:pointer;font-size:12px;font-weight:600;color:var(--muted)}
 .ref .spec-t{margin:12px 0 0}
 
+
+.guide{border:1px solid var(--line);background:var(--paper);padding:22px 24px;margin:0 0 30px}
+.guide h2{font-size:17px;margin-bottom:6px}
+.guidelead{margin:0 0 14px;font-size:14px;color:var(--muted)}
+.guidelist{margin:0;padding-left:20px;font-size:14px}
+.guidelist li{margin-bottom:10px}
+.guidelist li span{display:block;color:var(--muted);margin-top:2px}
+.guidewarn{margin:14px 0 0;font-size:13px;color:var(--ink);background:var(--white);
+ border-left:3px solid var(--maple);padding:10px 12px}
 .foot{background:var(--sand);border-top:1px solid var(--line);margin-top:10px}
 .foot .wrap{padding-block:34px 48px;display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:28px}
 .foot h2{font-size:15px;margin-bottom:8px}
