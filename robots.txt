@@ -1,0 +1,4 @@
+# Under review - not for publication yet.
+# Remove this file (or replace with an allow rule) when the collection goes live.
+User-agent: *
+Disallow: /
