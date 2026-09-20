@@ -21,6 +21,30 @@ img{max-width:100%;display:block}
 .facts li{font-size:13px;color:#bcd6c4}
 .facts b{display:block;font-size:20px;color:#fff;font-variant-numeric:tabular-nums;font-weight:600}
 
+.ask{margin:26px 0 0;padding:15px 17px;border:1px solid var(--line);border-radius:4px;
+ background:var(--sand)}
+.ask p{margin:0;font-size:15px;line-height:1.55;color:var(--ink)}
+.ask a{color:var(--ink);font-weight:600;white-space:nowrap}
+.ask .ask-n{margin-top:7px;font-size:14px;color:var(--muted)}
+.contact{margin:26px 0 0;padding:16px 18px;border:1px solid rgba(255,255,255,.28);
+ border-radius:4px;background:rgba(255,255,255,.07);max-width:44rem}
+.contact p{margin:0;color:#e8f0ea;font-size:15px;line-height:1.55}
+.contact .who{display:block;font-size:13px;letter-spacing:.08em;text-transform:uppercase;
+ color:#bcd6c4;margin-bottom:6px}
+.contact a{color:#fff;font-size:23px;font-weight:600;text-decoration:none;
+ letter-spacing:.01em;white-space:nowrap;border-bottom:2px solid rgba(255,255,255,.45)}
+.contact a:hover,.contact a:focus{border-bottom-color:#fff}
+.contact .note{display:block;margin-top:8px;font-size:14px;color:#bcd6c4}
+.cfoot{border-top:1px solid var(--line);margin-top:8px}
+.cfoot .in{max-width:1180px;margin:0 auto;padding:26px 20px 4px}
+.cfoot p{margin:0;font-size:15px;color:var(--ink)}
+.cfoot .who{display:block;font-size:12px;letter-spacing:.08em;text-transform:uppercase;
+ color:var(--muted);margin-bottom:6px}
+.cfoot a{color:var(--ink);font-size:23px;font-weight:600;text-decoration:none;white-space:nowrap;
+ border-bottom:2px solid var(--line)}
+.cfoot a:hover,.cfoot a:focus{border-bottom-color:var(--ink)}
+.cfoot .note{display:block;margin-top:8px;font-size:14px;color:var(--muted)}
+@media(max-width:560px){.contact a,.cfoot a{font-size:20px}}
 .bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:30;background:var(--white);border-bottom:1px solid var(--line)}
 .bar .wrap{display:flex;flex-wrap:wrap;gap:10px;align-items:center;padding-block:14px}
 input[type=search],select{font:inherit;font-size:14px;font-family:var(--sans);color:var(--ink);
