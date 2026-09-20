@@ -1,6 +1,6 @@
-# Tebbets Community Club — Website
+# Tebbetts Community Club — Website
 
-Static site for the Tebbets Community Club, hosted on GitHub Pages.
+Static site for the Tebbetts Community Club, hosted on GitHub Pages.
 
 ## Why this repo exists
 

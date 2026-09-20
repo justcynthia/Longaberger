@@ -1,6 +1,6 @@
-# Tebbets Community Club
+# Tebbetts Community Club
 
-Static website for the Tebbets Community Club, served by GitHub Pages.
+Static website for the Tebbetts Community Club, served by GitHub Pages.
 
 **Live site:** https://justcynthia.github.io/Longaberger/
 
